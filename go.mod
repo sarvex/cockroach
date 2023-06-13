@@ -14,7 +14,6 @@ require (
 	github.com/DataDog/datadog-go v4.4.0+incompatible // indirect
 	github.com/DataDog/zstd v1.4.8 // indirect
 	github.com/MichaelTJones/walk v0.0.0-20161122175330-4748e29d5718
-	github.com/Microsoft/go-winio v0.4.17 // indirect
 	github.com/PuerkitoBio/goquery v1.5.1
 	github.com/Shopify/sarama v1.29.0
 	github.com/Shopify/toxiproxy v2.1.4+incompatible
@@ -49,7 +48,7 @@ require (
 	github.com/cockroachdb/stress v0.0.0-20170808184505-29b5d31b4c3a
 	github.com/cockroachdb/ttycolor v0.0.0-20180709150743-a1d5aaeb377d
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd
-	github.com/containerd/containerd v1.4.6
+	github.com/containerd/containerd v1.5.18
 	github.com/coreos/go-oidc v2.2.1+incompatible
 	github.com/dave/dst v0.24.0
 	github.com/dgryski/go-metro v0.0.0-20180109044635-280f6062b5bc // indirect
@@ -65,7 +64,6 @@ require (
 	github.com/ghemawat/stream v0.0.0-20171120220530-696b145b53b9
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-swagger/go-swagger v0.26.1
-	github.com/gogo/googleapis v1.4.0 // indirect
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang-commonmark/html v0.0.0-20180910111043-7d7c804e1d46 // indirect
 	github.com/golang-commonmark/linkify v0.0.0-20180910111149-f05efb453a0e // indirect
@@ -87,7 +85,6 @@ require (
 	github.com/goware/modvendor v0.3.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
-	github.com/imdario/mergo v0.3.11 // indirect
 	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
 	github.com/jackc/pgconn v1.8.0
 	github.com/jackc/pgproto3/v2 v2.0.7
@@ -113,7 +110,6 @@ require (
 	github.com/marusama/semaphore v0.0.0-20190110074507-6952cef993b2
 	github.com/mattn/go-isatty v0.0.12
 	github.com/mattn/goveralls v0.0.2
-	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/mibk/dupl v1.0.0
 	github.com/mitchellh/reflectwalk v1.0.0
 	github.com/mmatczuk/go_generics v0.0.0-20181212143635-0aaa050f9bab
@@ -122,9 +118,7 @@ require (
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/nlopes/slack v0.4.0
 	github.com/olekukonko/tablewriter v0.0.5-0.20200416053754-163badb3bac6
-	github.com/onsi/gomega v1.10.3 // indirect
-	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.0.1
+	github.com/opencontainers/image-spec v1.0.2
 	github.com/opennota/wd v0.0.0-20180911144301-b446539ab1e7 // indirect
 	github.com/opentracing-contrib/go-observer v0.0.0-20170622124052-a52f23424492 // indirect
 	github.com/opentracing/opentracing-go v1.2.0
@@ -137,7 +131,6 @@ require (
 	github.com/prometheus/client_golang v1.7.1
 	github.com/prometheus/client_model v0.2.1-0.20210607210712-147c58e9608a
 	github.com/prometheus/common v0.10.0
-	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/pseudomuto/protoc-gen-doc v1.3.2
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475
 	github.com/russross/blackfriday v1.6.0 // indirect
@@ -159,19 +152,18 @@ require (
 	golang.org/x/oauth2 v0.0.0-20201109201403-9fd604954f58
 	golang.org/x/perf v0.0.0-20180704124530-6e6d33e29852
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210603125802-9665404d3644
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
 	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1
 	golang.org/x/text v0.3.6
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.org/x/tools v0.1.2
+	golang.org/x/tools v0.1.5
 	google.golang.org/api v0.30.0
 	google.golang.org/genproto v0.0.0-20210603172842-58e84a565dcf
 	google.golang.org/grpc v1.38.0
 	google.golang.org/grpc/examples v0.0.0-20210324172016-702608ffae4d // indirect
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/DataDog/dd-trace-go.v1 v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
-	gotest.tools/v3 v3.0.3 // indirect
 	honnef.co/go/tools v0.2.0
 	vitess.io/vitess v0.0.0-00010101000000-000000000000
 )
