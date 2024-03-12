@@ -10,14 +10,14 @@ go 1.21
 // merge of any upgrades we should communicate to all teams to be on the lookout
 // for behavior changes, just like we would after a go upgrade.
 require (
-	golang.org/x/crypto v0.16.0
+	golang.org/x/crypto v0.20.0
 	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df
 	golang.org/x/exp/typeparams v0.0.0-20221208152030-732eee02a75a // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.19.0
+	golang.org/x/net v0.21.0
 	golang.org/x/oauth2 v0.5.0
 	golang.org/x/sync v0.5.0
-	golang.org/x/sys v0.15.0
+	golang.org/x/sys v0.17.0
 	golang.org/x/text v0.14.0
 	golang.org/x/time v0.3.0
 	golang.org/x/tools v0.16.0
@@ -77,13 +77,13 @@ require (
 // the SQL team.
 require (
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
-	github.com/jackc/pgconn v1.14.0
+	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgio v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
-	github.com/jackc/pgproto3/v2 v2.3.2
+	github.com/jackc/pgproto3/v2 v2.3.3
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
 	github.com/jackc/pgtype v1.14.0
-	github.com/jackc/pgx/v4 v4.18.1
+	github.com/jackc/pgx/v4 v4.18.2
 )
 
 require (
@@ -235,7 +235,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.3.0
 	go.opentelemetry.io/proto/otlp v0.11.0
 	golang.org/x/perf v0.0.0-20230113213139-801c7ef9e5c5
-	golang.org/x/term v0.15.0
+	golang.org/x/term v0.17.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.4.5
